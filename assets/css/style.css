@@ -1,9 +1,10 @@
+/* Remove padding and margin from every element and set the sizing */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set the background of the website to white */
 body {
     background-color: #d9dcd6;
 }
@@ -15,15 +16,17 @@ body {
     color: #ffffff;
 }
 
+/* Changes text size in header and makes it inline */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Set the text color to white */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Change the way the text is displayed of the links in the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +35,29 @@ body {
     font-size: 20px;
 }
 
+/* No list marker is shown for the links in the nav bar */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Sets the margin of the links and makes them inline */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets the color of the links in the header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set the text size for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Sets the way the main image is displayed */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +67,46 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Adjusts the settings of the Main */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changes the settings for the Section in the main  */
+.search-online-social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for the h2 and img elements that belong to the search-online-social class */
+.search-online-social img {
+    max-height: 200px;
+}
+
+.search-online-social h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Make the image display to the left of the text and add space inbetween*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Make the image display to the right of the text space inbetween*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Css for the side panel */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +117,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Styling for the h3 and img elements that belong to the benefit class */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,24 +134,9 @@ p {
     max-width: 150px;
 }
 
-.search-online-social {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.search-online-social img {
-    max-height: 200px;
-}
 
-.search-online-social h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styling for the footer */
 .footer {
     padding: 30px;
     clear: both;
