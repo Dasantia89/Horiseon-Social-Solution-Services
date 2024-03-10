@@ -8,4 +8,4 @@ In this project, the website for Horiseon Social Solution Services was refactore
 ![Alt text](assets/images/readme-image.png)
 
 The deployed application can be found here:
-https://dasantia89.github.io/Mod-1-Horiseon-Social-Solution-Services/
+[https://dasantia89.github.io/Mod-1-Horiseon-Social-Solution-Services/](https://dasantia89.github.io/Horiseon-Social-Solution-Services/)https://dasantia89.github.io/Horiseon-Social-Solution-Services/
